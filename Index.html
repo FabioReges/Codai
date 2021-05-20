@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Codaí</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href=".\css\bootstrap.css" />
+    <link rel="stylesheet" href=".\css\Style.css" />
+
+
+</head>
+<body>
+    <div class="container-fluid container-linear">
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./imagens/foto.jpg"  alt="foto de perfil " class="card-image mx-auto d-block" />
+                    </div>
+                    <div class="card-body" style="align-content:center">
+                        <h5 class="card-title" style="text-align:center" id="nome-no-html"></h5>
+                        <hr class="hr"/>
+                        <p class="text-center" id="cargo-no-html">
+                       
+                        </p>
+                        <div class="botoes-card">
+                            <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
+                            <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projetos">Projetos</button>
+                        </div>
+                        <div class="icons-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="texto-1">
+                    <h1 class="title-text">Olá!</h1>
+                    <h4 class="title-subtitle">Bem vindo ao meu currículo.</h4>
+                    <p>
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.
+                    </p>
+                    <p>
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
+                    <p>
+                      <a target="_blank" href="https//:www.growdev.com.br">Site da Growdev - Este site foi desenvolvido em reactJS</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="row" id="footer-elementos">
+            <div class="col-md-3 col-lg-3">
+                <h4>Telefone</h4>
+                <p>(27)99999-9999</p>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="emal">
+                    <h4>E-mail</h4>
+                    <p>meuEmail@email.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <h4>Siga</h4>
+                <div class="links-redes-sociais">
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row text-center mb-2">
+            <div class="col-lg-12  col-md-12">
+                <small> &copy; 2021 Growdev All rights reserved <a href="#">GrowDev</a></small>
+            </div>
+                
+        </div>
+</footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
