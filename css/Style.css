@@ -14,13 +14,13 @@
 .card-title{
     font-family:'poppins';
 }
-
+/* anulei, pois a linha não está ficando alinhado.
 .hr {
     height: 2px;
     background-color: black;
     width: 30%;
    }
-
+*/
 .card-image {
     height: 300px;
     width: 300px;
