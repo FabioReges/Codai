@@ -14,9 +14,9 @@
 .card-title{
     font-family:'poppins';
 }
-/* anulei, pois a linha não está ficando alinhado.
-.hr {
-    height: 2px;
+ /*
+.hr{
+    height: 1px;
     background-color: black;
     width: 30%;
    }
@@ -114,7 +114,7 @@
         display:flex !important;
         justify-content: center !important;
     }
- }
+}
 #texto-1{
 
 }

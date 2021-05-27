@@ -1,6 +1,6 @@
 // JavaScript source code
 var nome = "Fabio Mad. Reges";
-var cargo = "CTO Growdev";
+var cargo = "DEV Growdev";
 
 
 var nomeHtml = document.getElementById("nome-no-html");
@@ -22,13 +22,13 @@ function colocarcargonohtml(cargo) {
 }
 
 function clickNoProjetos() {
-    console.log("Clicou no bot„o projetos!!!");
+    console.log("Clicou no bot√£o projetos!!!");
     texto2.style.display = "block";
     texto1.style.display = "none";
 }
 
 function clickNoSobre() {
-    console.log("Clicou no bot„o Sobre!!!");
+    console.log("Clicou no bot√£o Sobre!!!");
     texto1.style.display = "block";
     texto2.style.display = "none";
 }
